@@ -21,7 +21,7 @@ spec:
         - containerPort: 8081
         volumeMounts:
         - name: bid-storage
-          mountPath: /data
+          mountPath: /app
       volumes:
       - name: bid-storage
         persistentVolumeClaim:
