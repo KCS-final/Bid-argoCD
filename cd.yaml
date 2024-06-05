@@ -25,7 +25,9 @@ spec:
       volumes:
       - name: bid-storage
         persistentVolumeClaim:
-          claimName: bid-pvc 
+          claimName: bid-pvc
+      nodeSelector:
+        worker: was
 ---
 apiVersion: v1
 kind: Service
