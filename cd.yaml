@@ -5,7 +5,7 @@ metadata:
   labels:
     app: bid
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: bid
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bid
-        image: leeinhong9512/panda-bid:720066b64d26dbff1d0bb3a0c66f429609f9f1ab
+        image: feed1119/panda-bid:720066b64d26dbff1d0bb3a0c66f429609f9f1ab
         ports:
         - containerPort: 8081
         volumeMounts:
