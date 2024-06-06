@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bid
-        image: feed1119/panda-bid:51a7f236859913ffdbde7e41b1078345f63f4447
+        image: feed1119/panda-bid:aebcc8e4dfc52b0e33d01b9863a1d53d6debf1a4
         ports:
         - containerPort: 8081
         volumeMounts:
